@@ -1,3 +1,4 @@
-const arr = [1, 2, 3, 1, 5, 4, 2, 3, 5, 'they', 'don\'t', 'know', 'that', 'we', 'know', 'that', 'they', 'know' ];
-const uniqueNames = new Set(arr);
-console.log(Array.from(uniqueNames));
+let number = prompt("Введите число");
+number = Number(number);
+let numbers = [];
+for (num = 0; num <= number; num += 1) {numbers.push(num)}
