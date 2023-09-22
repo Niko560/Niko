@@ -1,4 +1,6 @@
-const number = +prompt("Введите число");
-const numberSquared = number * number;
-const numberCubed = number * number * number;
-alert(`Введеное число- ${number} Квадрат числа-${numberSquared} Куб числа-${numberCubed}`)
+const promo = prompt("Ваш промокод")
+if (promo.toLowerCase() === "скидка") {
+    alert(`Промокод применен`)
+} else {
+    alert(`Промокод не работает`)
+}
