@@ -1,6 +1,4 @@
-const promo = prompt("Ваш промокод")
-if (promo.toLowerCase() === "скидка") {
-    alert(`Промокод применен`)
-} else {
-    alert(`Промокод не работает`)
-}
+const name = prompt("Введите ваше имя");
+const birthday = prompt("Введите ваш год рождения");
+let age = 2023 - birthday;
+alert(`${name}:${age}`)
