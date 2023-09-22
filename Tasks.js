@@ -1,8 +1,8 @@
-const name = prompt("Введите ваше имя");
-const birthday = prompt("Введите ваш год рождения");
-const age = 2023 - birthday;
-const ageRemainder = age % 10;
-const ageFirst = (age - ageRemainder) / 10;
-if (ageRemainder === 1) { alert(`${name}:${ageFirst + "1"}`) }
-else if (ageRemainder === 2, 3, 4) { alert(`${name}:${ageFirst + "4"}`) }
-else { alert(`${name}:${ageFirst + "7"}`) }
+const age = prompt(`Ваш возраст`);
+if (age < 18) { alert(`Кредит недоступен`) } else if
+    (18 <= age && age <= 21) { alert(`Вам доступно до 50.000`) }
+else if
+    (22 <= age && age <= 35) { alert(`Вам доступно до 400.000`) }
+else if
+    (36 <= age && age <= 65) { alert(`Вам доступно до 1.000.000`) }
+else { alert(`Вам кредит не нужен`) }
