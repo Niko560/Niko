@@ -1,0 +1,11 @@
+const userFullAge = [];
+const user1 = { age: 17 , name: 'bob'};
+const user2 = { age: 20 , name: 'robin'};
+const user3 = { age: 19 , name: 'anna'};
+const userName = [user1.name, user2.name, user3.name];
+const userAge = [user1, user2, user3];
+if (user1.age >= 18) { userFullAge.push(user1) };
+if (user2.age >= 18) { userFullAge.push(user2) };
+if (user3.age >= 18) { userFullAge.push(user3) };
+console.log(userFullAge);
+console.log(userName);
